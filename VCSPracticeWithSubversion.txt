@@ -1,0 +1,32 @@
+$ svn
+
+# check to see where subversion is installed on the system
+$ which svn
+
+# check the version
+$ svn --version
+
+# set up the SVN server
+$ mkdir svnroot
+
+# create the directory
+$ svnadmin create /Users/hiuwing.l/svnroot
+
+# checkout and setting up a subversion repository
+$ svn checkout svn+ssh://my.domain.com/Users/hiuwing.l/svnroot
+$ svn import -m “Assignment7”/my/local/project/path/my/remote/svn/repository
+
+# storing a Makefile and some code  
+$ cd svnroot
+
+$ ls
+
+$ make
+
+—————————————————————————————————————————————————————————
+CISC 3140 - Design and Implementation
+Professor: Katherine Chuang
+Student Name: Hiu Wing, Lam
+Emplid: 23626630
+
+Assignment 7 - Centralized VCS practice with Subversion

@@ -1,0 +1,4 @@
+all:HelloWorld.cpp
+    g++ HelloWorld.cpp -o HelloWorld.out
+clean:
+    rm -f HelloWorld.out
